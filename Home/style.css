@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  display: flex;
+  background-color: black;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+.ul-2 {
+  display: flex;
+  font-size: 18px;
+}
+.ul {
+  padding: 25px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 200;
+  color: whitesmoke;
+  list-style: none;
+}
+
+.span {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+}
+.ul-1 {
+  font-size: 20px;
+}
+.li {
+  margin: 10px;
+}
+.div {
+  width: 100%;
+  height: 500px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.img-1 {
+  width: 100%;
+  height: 500px;
+}
+.hexagon {
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 125px;
+  background-color: rgb(38, 214, 191);
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+.circle {
+  border-radius: 50%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  border: 15px solid rgba(243, 237, 237, 0.938);
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  transition: 700ms;
+}
+.circle:hover {
+  border-width: 5px;
+}
+.twp {
+  height: 250px;
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  background-color: rgb(38, 214, 191);
+  font-family: "Source Sans Pro", sans-serif;
+  color: whitesmoke;
+}
+.twp-text-div {
+  text-align: justify;
+  margin-top: 30px;
+}
+.p1 {
+  font-size: 40px;
+  margin-left: 10px;
+  font-weight: 400;
+}
+.twp-text-div-2 {
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+.projects {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-size: 80px;
+  font-weight: 300;
+  font-family: "Source Sans Pro", sans-serif;
+  height: 125px;
+  background-color: rgb(27, 27, 27);
+}
+.img-recent-projects {
+  display: flex;
+}
+.img-parent {
+  width: 500px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  height: 300px;
+}
+.img {
+  height: 100%;
+  width: 100%;
+}
+.img-alt {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.89);
+  height: 20px;
+  width: 120px;
+  color: whitesmoke;
+  font-family: "Source Sans Pro", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-alt-1 {
+  width: 180px;
+}
+.img-alt-3 {
+  width: 90px;
+}
+.img-alt-4 {
+  width: 90px;
+}
+.from-the-blog {
+  width: 100%;
+  height: 200px;
+  font-family: "Hanken Grotesk", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+.ftb-parent {
+  width: 100%;
+}
+.ftb-p {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  margin-top: 80px;
+  margin-left: 70px;
+}
+.keep-up {
+  margin-left: 73px;
+}
+.nav-links {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.Home:hover {
+  cursor: pointer;
+}
+.icon {
+  color: white;
+}
+.ftb-ku-div {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+.view-div {
+  margin-top: 90px;
+  margin-right: 70px;
+}
+.view-bt {
+  height: 40px;
+  width: 110px;
+  font-size: 20px;
+  border: 2px solid rgb(38, 214, 191);
+  color: rgb(38, 214, 191);
+  font-family: "Hanken Grotesk", sans-serif;
+  transition: 1000ms;
+  background-color: #fff;
+}
+.view-bt:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(38, 214, 191);
+}
+.ftb-img {
+  height: 300px;
+  width: 400px;
+}
+.ftb-img-parent-div {
+  display: grid;
+  grid-auto-columns: 1fr 1fr 1fr;
+  grid-template-areas: "img1 img2 img3";
+  color: rgb(38, 214, 191);
+  font-size: 25px;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.ftb-img-1 {
+  grid-area: img1;
+  margin-left: 40px;
+}
+.ftb-img-2 {
+  grid-area: img2;
+  margin-left: 20px;
+}
+.ftb-img-3 {
+  grid-area: img3;
+}
+.ftb-img-p {
+  margin-left: 40px;
+}
+.hexagons-parent {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hexagon-2 {
+  margin-left: 2px;
+}
+.hexagon-3 {
+  margin-left: 2px;
+}
+.hexagon-4 {
+  margin-left: 2px;
+}
+.hexagon-5 {
+  margin-left: 2px;
+}
+.hexagon-6 {
+  margin-left: 2px;
+}
+.hexagons {
+  width: 125px;
+  height: 125px;
+  background-color: rgb(38, 214, 191);
+  border: 1px solid rgb(38, 214, 191);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  transition: 300ms;
+}
+.hexagons:hover {
+  border: 10px solid rgb(38, 214, 191);
+  color: rgb(38, 214, 191);
+  background: #fff;
+}
+.footer {
+  background: black;
+  color: white;
+  font-family: "Hanken Grotesk", sans-serif;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-copyright {
+  margin-right: 2px;
+  margin-top: 1px;
+}
