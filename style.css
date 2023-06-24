@@ -190,6 +190,9 @@
   color: rgb(38, 214, 191);
   text-decoration: none;
 }
+.view-link:hover{
+  color: white;
+}
 .view-bt:hover {
   cursor: pointer;
   color: white;
