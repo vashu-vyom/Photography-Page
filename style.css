@@ -186,6 +186,10 @@
   transition: 1000ms;
   background-color: #fff;
 }
+.view-link{
+  color: rgb(38, 214, 191);
+  text-decoration: none;
+}
 .view-bt:hover {
   cursor: pointer;
   color: white;
